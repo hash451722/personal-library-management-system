@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal library</title>
+    <link rel="stylesheet" href="resources/style.css"/>
+    <link rel="icon" href="resources/favicon.ico">
+</head>
+
+<body>
+    <header class="grovalNavigation">
+        <!-- <h1>dms-desktop</h1> -->
+        <input type="file" id="fileInput" accept=".json">
+    </header>
+
+    <main>
+        <div class="localNavigation">
+            <div id="tags-container">
+                <p id="all-tags" class="tag-button">tags</p>
+                <!-- tagボタンの挿入位置 -->
+            </div>  
+        </div>
+
+        <div class="content">
+            <div id="documents-info">
+                以下ドキュメント
+            </div>
+            <div id="document-list">
+                <!-- documentカードの挿入位置 -->
+            </div>
+        </div>
+    </main>
+
+    <script src="resources/plms.js"></script>
+
+</body>
+</html>

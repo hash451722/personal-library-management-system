@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.grovalNavigation{
+    height: 70px;
+    text-align: center;
+    background-color: #535353;
+    color: #fff;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    margin-top: 10px;
+}
+.content{
+    flex: 1;
+    /* background-color: #eee; */
+    text-align: center;
+    margin-left: 10px;
+}
+
+.localNavigation{
+    width: 140px;
+    text-align: center;
+    background-color: #888;
+    color: #fff;
+}
+
+
+#all-tags {
+    cursor: pointer;
+}
+
+
+#documents-info {
+    background-color: #d8d8d8;
+    margin: 0;
+    padding: 1rem;
+    height: 10px;
+}
+
+article {
+    background-color: #eee;
+    width: 100%;
+    margin: 0px;
+
+    height: 60px;
+    border-top: 1px solid black; /* 下側のボーダーを設定 */
+    position: relative;
+}
+
+article a {
+    display: block;
+    width: 100%;
+    /* height: 60px; */
+    /* padding: 10px; */
+    height: 100%;
+    position: absolute;
+}
